@@ -1,0 +1,10 @@
+# Django共通のライブラリ
+django
+gunicorn
+whitenoise
+
+# データベース接続用のライブラリ
+dj-database-url
+python-dotenv
+psycopg2-binary
+mysqlclient
