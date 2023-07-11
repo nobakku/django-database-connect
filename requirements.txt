@@ -4,7 +4,10 @@ gunicorn
 whitenoise
 
 # データベース接続用のライブラリ
+# 【共通】
 dj-database-url
 python-dotenv
+# 【PostgresSQL用】
 psycopg2-binary
+#  【MySQL用】
 mysqlclient
